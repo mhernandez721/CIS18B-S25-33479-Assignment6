@@ -15,7 +15,7 @@ public class Main {
             executor.submit(new Customer(customer, pool));
         }
 
-        executor.shutdown(); // Initiates shutdown but doesn't block
+        executor.shutdown(); // stars shutdown but doesn't block
 
         try {
             // Wait up to 5 seconds for all tasks to complete
