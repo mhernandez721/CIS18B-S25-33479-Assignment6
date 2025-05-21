@@ -9,7 +9,6 @@ public class Customer implements Runnable {
         this.source = pool;
     }
 
-    @Override
     public void run() {
         try {
             Thread.sleep((long)(Math.random() * 200)); // simulate staggered access
